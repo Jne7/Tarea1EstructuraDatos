@@ -1,0 +1,19 @@
+
+array1 = []
+for i in range(3):
+    num = int(input("Ingrese un número para el primer arreglo: "))
+    array1.append(num)
+
+
+array2 = []
+for i in range(3):
+    num = int(input("Ingrese un número para el segundo arreglo: "))
+    array2.append(num)
+
+
+array1.sort()
+array2.sort()
+
+
+print("Primer arreglo ordenado:", array1)
+print("Segundo arreglo ordenado:", array2)
